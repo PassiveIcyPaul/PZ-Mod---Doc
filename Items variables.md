@@ -33,7 +33,7 @@
 |TreeDamage| Damage inflicted by the item on tree. | 0 ( SpearMachete)|
 |MinimumSwingTime|	The time that takes between each swing.	|15 (baseball bat)|
 |TwoHandWeapon| If you need to use it with two hand| TRUE (SpearMachete)|
-|KnockdownMod||0 (SpearHuntingKnife)|
+|KnockdownMod| Value determines strength of knockdown effect chance.|0 (SpearHuntingKnife)|
 |SwingAmountBeforeImpact|	Requires more research.	|0.2 (spiked baseball bat)|
 |PushBackMod|	Distance that enemies are pushed back.	|4.5 (wood planks)|
 |KnockBackOnNoDeath|	Whether enemies are pushed back if they are not killed.	|Boolean (false or true)|
@@ -58,23 +58,23 @@
 |CritDmgMultiplier| Damage multiplier of critical attack| 10 (SpearMachete)|
 |BaseSpeed|Attack speed. |0.9 (SpearMachete)|
 |WeaponLength |Need more research.|0.2 (DumbBell)|
-|attachmenttype|Need more research. |Shovel (SpearMachete), Rifle (AssaultRifle2)|
+|attachmenttype|Where on the body the weapon is attached to (back, holster etc). |Shovel (SpearMachete), Rifle (AssaultRifle2)|
 |ProjectileCount|Need more research|1 (AssaltRifle2)|
 |ConditionLowerChanceOneIn|Need more research.| 60 (AssaultRifle2)|
-|ConditionMax	|Need more research. | 10 (AssaltRifle2)|
-|IsAimedFirearm	|For gun, need more research.|TRUE (AssaultRifle2)|
-|AimingPerkCritModifier	|For gun, need more research.|0 (AssaultRifle2)|
+|ConditionMax	|Maximum amount of item durability before breaking on hit. | 10 (AssaltRifle2)|
+|IsAimedFirearm	|Determines if weapon requires aiming before attack.|TRUE (AssaultRifle2)|
+|AimingPerkCritModifier	|Modifies CritalHit Damage, Scales with Aim skill level.|0 (AssaultRifle2)|
 |HitChance	|For gun, chance to hit.|50 (AssaultRifle2)|
-|AimingPerkMinAngleModifier	|For gun, need more research.|0.01 (AssaultRifle2)|
-|AimingPerkHitChanceModifier	|For gun, need more research.|5 (AssaultRifle2)|
-|AimingPerkRangeModifier 	|For gun, need more research.|3 (AssaultRifle2)|
+|AimingPerkMinAngleModifier	|Modifies MinAngle accuracy, Scales with Aim skill level.|0.01 (AssaultRifle2)|
+|AimingPerkHitChanceModifier	|Modifies HitChance percentage, Scales with Aim skill level.|5 (AssaultRifle2)|
+|AimingPerkRangeModifier 	|Modifies MaxRange, Scales with Aim skill level.|3 (AssaultRifle2)|
 |RecoilDelay	|Delay between attack, for gun.|0 (AssaultRifle2)|
 |ReloadTime 	|Delay to reload, for gun.|25 (AssaultRifle2)|
 |AimingTime 	|Delay to aim, for gun.|25 (AssaultRifle2)|
-|MaxAmmo  |For gun, need more research.|20 (AssaultRifle2)|
-|AmmoBox  |For gun, need more research.|308Box (AssaultRifle2)|
-|FireMode |For gun, need more research.|Single (AssaultRifle2)|
-|WeaponReloadType  |For gun, need more research.|boltaction (AssaultRifle2)|
+|MaxAmmo  |Max ammo capacity of weapon (0/20, 20/20) etc.|20 (AssaultRifle2)|
+|AmmoBox  |Item value of ammo box used for current ammo type (Base.308Box).|308Box (AssaultRifle2)|
+|FireMode |Determines default firemode. Burst is bugged on first use if used as default, Needs to switch back and forth to work.|Single (AssaultRifle2)|
+|WeaponReloadType  |Determines which animation type is used.|boltaction (AssaultRifle2)|
 
 # Clothing
 |Parameter Name	|Effect / Description	|Example|
